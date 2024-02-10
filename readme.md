@@ -9,7 +9,7 @@ create json schema WithdrawEvent(cardnumber string, cardtype string, amount int,
 ```
 
 Pojedynczym zdarzeniem w systemie jest operacja wypłaty z bankomatu.
-Dane w zdarzeniu zawierają informacja karty, ilości wypłaconej gotówki, miejsca położenia bankomatu. 
+Dane w zdarzeniu zawierają informacje na temat karty (numer i typ), ilości wypłaconej gotówki, miejsca wypłaty (miasto i kraj). 
 
 Dane uzupełnione są o dwie etykiety czasowe. 
 * Pierwsza (`ets`) związana jest z momentem dokonania wypłaty. 
